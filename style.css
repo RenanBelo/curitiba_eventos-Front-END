@@ -15,6 +15,22 @@ body {
     overflow: hidden;
 }
 
+.loading-indicator {
+    display: inline-block;
+    margin-left: 5px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 .chat-header {
     background-color: #f3f3f3;
     padding: 10px 20px;
